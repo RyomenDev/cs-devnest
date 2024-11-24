@@ -1,0 +1,22 @@
+.app {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+button {
+  background: lightgreen;
+  border: 1px solid green;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  width: 30%;
+  margin-bottom: 2rem;
+}
+
+.animal-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 80vw;
+  gap: 10px;
+}

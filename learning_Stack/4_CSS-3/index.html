@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+
+    <style>
+      .cell {
+        border: 2px solid black;
+        padding: 20px;
+        font-size: 25px;
+        font-weight: 700;
+        text-align: center;
+        background: red;
+      }
+
+      .container {
+        display: grid;
+        min-height: 100vh;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        align-items: center;
+        justify-items: center;
+
+        /* justify-content: flex-end; */
+        /* justify-content: flex-end; */
+
+        /* align-content: space-around; */
+
+        /* height: 100vh;
+        grid-template-columns: 1fr 200px 2fr;
+        grid-template-rows: 2fr 3fr 1fr;
+        gap: 10px 40px; */
+        /* grid-template-columns: repeat(4, 1fr) 200px; */
+        /* grid-template-rows: 100px 100px 100px 100px 100px; */
+        /* grid-template-areas:
+          'a b b b'
+          'a b b b'
+          'c b b b'
+          'c b b b'
+          'c d d d'
+          'e e e e'; */
+      }
+
+      .cell-5 {
+        justify-self: flex-end;
+        align-self: flex-end;
+      }
+      /* .cell-1 {
+        justify-self: flex-start;
+        align-self: center;
+      } */
+
+      /* 
+        .cell-1 {
+          grid-area: a;
+        }
+
+        .cell-2 {
+          grid-area: b;
+        }
+
+        .cell-3 {
+          grid-area: c;
+        }
+
+        .cell-4 {
+          grid-area: d;
+        }
+
+        .cell-5 {
+          grid-area: e;
+        } */
+    </style>
+  </head>
+  <body>
+    <!-- <div class="container">
+      <div class="cell cell-1">Cell - 1</div>
+      <div class="cell cell-2">Cell - 2</div>
+      <div class="cell cell-3">Cell - 3</div>
+      <div class="cell cell-4">Cell - 4</div>
+      <div class="cell cell-5">Cell - 5</div>
+      <div class="cell cell-6">Cell - 6</div>
+    </div> -->
+    <!-- <h1 class="heading-1">Heading 1</h1> -->
+    <div
+      class="transform-div"
+      style="width: 200px; height: 200px; background: red"
+    ></div>
+    <!-- <h1>Heading 2</h1> -->
+  </body>
+</html>

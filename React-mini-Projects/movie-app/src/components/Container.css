@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    width: 20rem;
+    text-align: left;
+}
+
+.item img {
+    width: 300px;
+    height: 400px;
+}

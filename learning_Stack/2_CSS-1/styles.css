@@ -1,0 +1,229 @@
+/* Select -> selector */ /* Declaration Block {} */
+/* Declare property -> property: value; */
+/* 
+    selector {
+        property1: value;
+        property2: value;
+        property3: value;
+        property4: value;
+    }
+
+*/
+/* 
+    Element Selector
+*/ /* Group Selector (,) */
+/* p,
+h1,
+h2 {
+  color: red;
+} */ /* ID Selector */
+/* #heading1 {
+  color: blue;
+} */ /* Class Selector */
+/* .green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.border-1 {
+  border: 1px solid black;
+}
+
+#red-1 {
+  font-size: 40px;
+} */
+/* Universal Selector */ /* * {
+  color: red;
+} */
+/* .bg-green {
+  color: blueviolet;
+  background: green;
+  border: 5px solid red;
+}
+
+h1 {
+  background: blue;
+}
+
+.c-red {
+  color: red;
+} */
+/* Last Rule Property */ /* 
+.red {
+  font-size: 45px;
+  color: red;
+} */
+/* 1000 lines of code */ /* .red {
+  color: blue;
+} */
+/* Specificity -> Rank / Number  */
+/* 
+#cyan {
+  color: cyan;
+}
+
+.red {
+  color: green;
+}
+
+h1 {
+  color: blue;
+} */
+/* Universal Selector -> LEAST */ /* * {
+  color: black;
+} */
+/* 
+
+    CSS -> Styling
+    Ways to Add -> Inline / Internal / External
+    Syntax
+    Selectors -> Element / ID / CLass / Universal Selector
+
+    Div + Span + Alternatives to div
+
+    Inheritance
+
+    Last Rule Prop
+
+    Speceficity
+
+*/
+/* Color 
+1. color
+2. background-color
+3. background
+
+Value -> Keywords
+
+R (0-255) + G (0-255) + B(0-255) -> rgb 
+rgba Transparency of Color (4th) -> 0-1
+
+0-15 -> Hexadecimal -> 0-9 a-f
+Hex Code -> #0-f 0-f _ _ _ _ 
+*/
+/* h1 {
+  color: rgba(0, 0, 0, 0.2);
+  background-color: black;
+  background: green;
+} */
+/* .three {
+  color: #57a36afb;
+}
+
+.five {
+  color: rgba(0, 0, 0, 0);
+} */
+
+/* Units -> Absolute + Relative */ /* pixel */
+/* font-size 
+    height
+    width
+*/
+/* h1 {
+  font-size: 50px;
+  background: red;
+  height: 500px;
+  width: 200px;
+} */
+/* Relative Units */ /* % */
+/* body {
+  height: 1000px;
+  background: pink;
+}
+
+.one {
+  width: 400px;
+  height: 50%;
+  background: red;
+}
+
+.two {
+  width: 50%;
+  height: 34%;
+  background: blue;
+} */
+/* em and rem */ /* em -> Relative -> depends on the parent / browser */
+/* div {
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+#head-2 {
+  font-size: 64px;
+} */
+/* xem = x * base_value (browser / parent-element's font-size) */
+/* rem -> Root Element / Browser */ /* h1 {
+  font-size: 3rem;
+} */
+/*
+  vh and vw -> height and width (relative)
+ */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  height: 50px;
+  width: 100vw;
+  background: red;
+}
+
+.one {
+  /* * / + - */
+  height: calc(100vh - 50px);
+  width: 50vw;
+  background: black;
+}
+
+/* 
+    min-height, max-height
+    min-width, max-width
+    overflow
+*/
+/* 
+h1 {
+  background: black;
+  color: blue;
+  min-height: 200px;
+  max-height: 500px;
+  overflow: auto;
+  max-width: 300px;
+  height: auto;
+} */
+
+/* Typography -> text
+
+    color
+    font-size,
+    font-family,
+    font-weight,
+    font-style,
+    text-align,
+    text-indent,
+    line-height,
+    letter-spacing,
+    word-spacing,
+    text-transform,
+    text-decoration
+*/
+
+p {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  /* font-style: italic; */
+  text-align: left;
+  text-indent: 30px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  text-transform: uppercase;
+  text-decoration: line-through;
+}

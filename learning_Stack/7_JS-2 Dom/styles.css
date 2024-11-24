@@ -1,0 +1,8 @@
+.hide {
+  display: none;
+}
+
+.dark-mode {
+  background: black;
+  color: #fff;
+}

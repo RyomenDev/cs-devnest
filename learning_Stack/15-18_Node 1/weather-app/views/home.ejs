@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<head>
+</head>
+<body> 
+    <%- include('./partials/navbar.ejs') %>
+
+    <h1> Hello 
+            <%= firstName %>
+     </h1>
+
+     <% if(authorized) { %>
+        <h1> AUTHORIZED </h1>
+    <% }  else { %>
+        <h1> Not Authorized <h1>
+    <% } %>
+</body>

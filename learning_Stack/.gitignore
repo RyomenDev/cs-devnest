@@ -1,0 +1,8 @@
+# Ignore node_modules directory, which contains dependencies installed via npm or yarn
+node_modules
+
+# Ignore .env files, which often contain sensitive environment variables
+.env
+
+# Ignore the zip directory at the root of the repository
+/zip
